@@ -162,6 +162,8 @@ repositories {
 }
 
 dependencies {
+    compile project(':react-native-oauth')
+    compile project(':react-native-admob')
     compile project(':react-native-share')
     compile project(':react-native-billing')
     compile project(':react-native-facebook-login')

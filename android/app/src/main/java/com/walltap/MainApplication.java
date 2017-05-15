@@ -4,6 +4,8 @@ import android.app.Application;
 import android.util.Log;
 
 import com.facebook.react.ReactApplication;
+import io.fullstack.oauth.OAuthManagerPackage;
+import com.sbugert.rnadmob.RNAdMobPackage;
 import cl.json.RNSharePackage;
 import com.idehub.Billing.InAppBillingBridgePackage;
 import com.goldenowl.twittersignin.TwitterSigninPackage;
@@ -45,6 +47,8 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
+            new OAuthManagerPackage(),
+            new RNAdMobPackage(),
             new RNSharePackage(),
           new InAppBillingBridgePackage(null),
           new FacebookLoginPackage(),

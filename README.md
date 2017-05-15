@@ -36,4 +36,6 @@ Configure setup steps for iOS:
   
   Change #import <React/RCTFBLoginManager.h> to #import "RCTFBLoginManager.h"
     
-4: Finally run react-native run-ios
+4. copy/paste react-native-router-flux to node_modules/react-native-router-flux
+
+5: Finally run react-native run-ios
